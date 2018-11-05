@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<link rel="stylesheet" type="text/css" href="css/figure.css"/>
+	<title> Figure </title>
+</head>
+<body>
+	<figure>
+		<img alt="logo html5" src="imagens/logohtml.jpg"/>
+		<figcaption> Logo do HTML5 </figcaption>
+	</figure>
+</body>
+</html>

@@ -1,0 +1,889 @@
+@charset "UTF-8";
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+body{
+	background-color:#fff;
+	
+	}
+
+body#pagemateria{
+	background-color:#fff;
+	background-image:none;
+	
+}
+body#pagemateria p{
+font-size:13pt;
+text-shadow:1px 1px 1px black;
+
+}
+
+p{
+	font-family:arial, sans-serif;
+	text-indent:40px;
+	color:#000;	
+	font-size:1.2em;
+	text-align:justify;
+	margin-right:15px;
+	margin-left:15px;
+	margin:1% 5% 0 5%;
+	
+}
+
+h1{
+	
+	color:darkblue;
+	font-family: 'Skranji', cursive;
+	text-shadow:1px 1px 1px #ccc;
+	text-align:center;
+	font-size:2.5em;
+	margin:20px 0 20px 0;	
+}
+
+
+h2{
+	font-family: 'Skranji', cursive;
+	color:#1b7183;
+	text-align:center;
+	
+}
+
+h3{
+	font-family: 'Skranji', cursive;
+	color:#1b7183;
+	text-shadow:none;
+
+	
+}
+
+.sessaomaterias h3{
+	font-family: 'Skranji', cursive;
+	color:#000;
+	text-shadow:none;
+	text-align:center;
+	font-size:1em;
+	
+}
+
+.sessaomaterias p{
+	color:#000;
+	text-align:center;
+}
+
+.principalmaterias a{
+	color:#000;
+	text-align:center;
+}
+
+.subjects h3{
+	font-family: 'Skranji', cursive;
+	color:#000;
+	text-shadow:none;
+	margin:0 0 0 3%;
+}
+
+a{
+	text-decoration:none;
+}
+
+#logotipo{
+	width:30%;
+	margin:5% 0 0 36%;
+}
+
+#logotipo:hover{
+	width:40%;
+	margin:0 0 0 33%;
+}
+
+label{
+	color:#1b7183;	
+	font-size:15pt;
+	text-align:justify;
+	margin-right:15px;
+	margin-left:15px;
+}
+
+.sobreling img{
+	width:40px;
+}
+
+.site{
+	color:#000;
+	text-decoration:none;
+	text-align:center;
+	margin:5% 0 5% 0;
+	
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+section{
+	overflow: auto;
+	border:1px solid #ccc;
+	box-shadow:1px 1px 1px #000;
+}
+
+
+
+.menumate img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+
+
+img.logo{
+	width:7%;
+	float:left;
+}
+
+nav{
+	
+	background-color:darkblue;
+	width:100%;
+	border:1px solid #fff;
+	margin:0;
+}
+
+nav ul{
+	
+	margin-left:20%;
+	margin-top:0px;
+}
+nav li{
+	display:inline-block;
+	font-family: 'Skranji', cursive;
+	padding:20px 10px 20px 10px;
+	text-decoration:underline;
+}
+nav li a{
+	color:#00AFEF;
+	text-shadow:1px 1px 1px #000;
+	font-size: 3em;
+}
+
+nav li a:hover{
+	color: #00ffff;
+	text-shadow:1px 1px 1px #111;
+	background-color: rgb(255,0,255,0.2);
+} 
+
+nav.menumate{
+	width:100%;
+	background-color: #000;
+	
+	}
+
+nav.menumate li a{
+	color: #ccc;
+	text-shadow:1px 1px 1px #000;
+	font-size: 30pt;
+}
+
+nav.menumate li a:hover{
+	color: #111;
+	text-shadow:1px 1px 1px #000;
+	background-color: #fff;
+} 
+ 
+#artMaterias{
+	width:100%;
+		
+}
+
+#artSobre{
+	width:100%;
+	min-height:calc(100vh - 150px);
+	margin-bottom:10%;
+}
+
+.artIndex{
+	min-height:calc(100vh - 60px);
+}
+
+#sessaoFatec p{
+	margin-top:3%;
+}
+
+#sessaoFatec{
+	width:45%;
+	min-height:calc(100vh - 450px);
+	margin-right:1%;
+	float:right;
+}
+
+#sessaoFatec2{
+	width:50%;
+	min-height:calc(90vh - 60px);
+	
+	float:left;
+}
+
+form{
+	width:60%;
+	float:left;
+	margin:0 0 0 10%;	
+	border:2px solid #ccc;
+	box-shadow:1px 1px 3px #000;
+	padding:1%;
+	text-align:center;
+}
+
+ form input{
+	width:40%;
+	margin-right:1%;
+	padding:15px 10px;
+	border:1px solid blue;
+	border-radius:5px;
+	color:#fff;
+	
+	
+}
+
+legend{
+	text-align:center;
+	
+	
+	font-size:1em;
+	border-radius:5%;
+}
+
+iframe#mapa{
+	width:60%;
+	height:250px;
+	margin:0 0 1% 25%;
+	border:1px solid #fff;
+	box-shadow:1px 2px 2px #000;
+	
+}
+
+section.sessaogrande{
+	margin:0;
+	width:100%;
+	height:900px;
+	overflow: auto;
+}
+section.sessaofatec{
+	margin:0;
+	width:100%;
+	height:1500px;
+	overflow: auto;
+}
+
+section.sessaosobre{
+	margin:0;
+	width:100%;
+	height:900px;
+	overflow: auto;
+}
+
+section.sessaocontato{
+	margin:0;
+	width:100%;
+	height:800px;
+	overflow: auto;
+}
+
+main{
+	width:70%;
+	height:100%;
+	float:left;
+	border:1px solid #fff;
+	background-color:lightblue;
+	overflow:auto;
+}
+
+main.principal{
+	width:90%;
+	height:87%;
+	background-color:lightblue;
+	border:1px solid #fff;
+	box-shadow:1px 1px 1px #000;
+	border-radius:2%;
+	margin:1% 5%;
+	overflow:auto;
+}
+
+main.principalmaterias{
+	width:90%;
+	margin:1% 5% 0 5%;
+	padding:0 0 30% 0;
+	background-color:lightblue;
+	border:1px solid #fff;
+	box-shadow:1px 1px 1px #000;
+	overflow:auto;
+}
+
+main.pricipalcontato{
+	width:90%;
+	
+	margin:1% 5% 0 5%;
+	padding:0 0 10% 0;
+	background-color:lightblue;
+	border:1px solid #fff;
+	box-shadow:1px 1px 1px #000;
+	overflow:auto;
+}
+
+article.mainsubjects{
+	width:55%;
+	height:2500px;
+	float:left;
+	background-color:#ccc;
+	margin:0;
+	overflow:auto;
+	border:2px solid #fff;
+	box-shadow:1px 2px 2px #000;
+}
+
+article.mainsubjects-menor{
+	width:60%;
+	height:1500px;
+	float:left;
+	background-color:#ccc;
+	margin:0;
+	overflow:auto;
+	border:2px solid #fff;
+	box-shadow:1px 2px 2px #000;
+}
+
+article.mainsubjects-peq{
+	width:60%;
+	height:800px;
+	float:left;
+	background-color:#ccc;
+	margin:0;
+	overflow:auto;
+	border:2px solid #fff;
+	box-shadow:1px 2px 2px #000;
+}
+
+section.sessaomaterias{
+	
+	width:100%;
+	height:1500px;
+	
+	overflow: auto;
+	font-family:arial, sans-serif;
+}
+
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary{
+	cursor:pointer;
+	width:20%;
+	margin:0 0 5% 3%;
+	background-color:rgba(0,0,0,0.5);
+}
+body#pagemateria summary{
+	color:#ccc;
+	text-shadow:1px 5px 1px black;
+}
+
+
+	
+.page{
+	font-size:2em;
+	color:black;
+	text-shadow:none;
+	
+}
+	
+ul.professores{
+	
+	width:40%;	
+	float:left;
+	border:1px solid #ccc;
+	box-shadow:1px 1px 1px #000;
+	margin:0;
+	
+}
+	
+ul.professores li{
+	
+	list-style-type: none;
+	color:#000;	
+	text-align:center;
+}
+
+ul.professores p{
+	text-align:center;
+	font-size:1em;
+}
+
+ul.professores h3{
+	font-size:1.5em;
+	font-family: 'Skranji', cursive;
+	color:#000;
+	text-shadow:none;
+
+	
+}
+
+ul.professores img{
+	width:60%;
+	}
+	
+ul.professores img:hover{
+	width:63%;
+	}
+
+.galeria{
+	margin:1% auto;
+	width:90%;
+	height:350px;
+	position:relative;
+	overflow:hidden;
+	border:1px solid #fff;
+	box-shadow:1px 2px 2px #000;
+	background-color:#000;
+}
+
+.fatec{
+	position:absolute;
+	opacity:0;
+	width:100%;
+	animation-name:animacao;
+	animation-duration:20s;
+	animation-iteration-count:infinite;
+	
+	}
+	
+@keyframes animacao{
+	25%{
+		opacity:1;
+		transform:scale(1.1,1.1);
+	}
+	
+	50%{
+		opacity:0;
+	}
+}
+
+.fatec:nth-child(1){
+	
+}
+
+.fatec:nth-child(2){
+	animation-delay:5s;
+}
+
+.fatec:nth-child(3){
+	animation-delay:10s;
+}
+
+.fatec:nth-child(4){
+	animation-delay:15s;
+}
+
+.codigo{
+	width:50%;
+	height:50%;
+}
+
+section.subjects{
+	color:#000;
+	text-shadow:1px 1px 1px black;
+	margin:0;
+	width:100%;
+	height:100%;
+	overflow: auto;
+	background-color:#ccc;
+	float:left;
+	border:1px solid #fff;
+	font-family:arial, sans-serif;
+}
+section.subjects img{
+	margin:0 0 0 3%;
+}
+ul.img-design img{
+	width:200px;
+	margin:0 0 0 100px;
+}
+
+ul.img-design li{
+	
+	display:inline-block;
+}
+
+ul.img-design figcaption{
+	color:#000;
+	font-size:15pt;
+	text-align:center;
+	text-shadow:1px 1px 1px gray;
+}
+
+section.subjects h1{
+
+	font-family: 'Skranji', cursive;
+	color:#000;
+	text-shadow:1px 1px 1px black;
+	text-align:left;
+	font-size:25pt;
+	
+}
+
+section.subjects h2{
+
+	font-family: 'Skranji', cursive;
+	color:#000;
+	text-shadow:1px 1px 1px black;
+	text-align:left;
+	font-size:20pt;
+	margin:0 3%;
+}
+
+section.subjects p{
+	color:#000;
+	text-shadow:1px 1px 1px black;
+	font-size:15pt;
+	text-align:justify;
+	margin-right:15px;
+	margin-left:15px;
+}
+
+section.subjects,footer.rodamate{
+	border:1px solid #fff;
+		
+}
+
+section.subjects object{
+	width:90%;
+	height:300px;
+	background-color:#fff;
+	margin:0 0 0 0;
+	border:1px solid #000;
+}
+
+.img-alg{
+	width:90%;
+	height:300px;
+	margin:0 0 0 3%;
+	border:1px solid #000;
+}
+
+.img-long{
+	width:90%;
+	height:500px;
+	margin:0 0 0 3%;
+	border:1px solid #000;
+}
+
+section.subjects iframe{
+	width:90%;
+	height:700px;
+	background-color:#fff;
+	margin:0 0 3% 0;
+}
+
+section.subjects,footer.mathrodamate{
+	border:1px solid black;
+	
+	
+	
+}
+
+.subjects figcaption{
+	text-align:center;
+	color:gray;
+	text-shadow:1px 1px 1px #000;
+}
+
+figure.fseta{
+	
+	margin:250px 0px 0px 300px;
+	position:fixed;
+	
+
+	
+}
+
+figure.fseta a{
+	text-align:left;
+	color:gray;
+	text-shadow:1px 1px 1px #000;
+}
+
+img.seta{
+	width:50%;
+	height:50%;
+}
+
+figure.fquadro{
+	
+	margin:10% 0 0 0;
+	position:fixed;
+	
+}
+
+figure.fquadro p{
+	
+	color:gray;
+}
+
+img.mquadro{
+	
+	width:200px;
+	height:270px;
+	border:3px solid #000;
+	box-shadow:2px 2px 4px #fff;
+	
+}
+
+
+input[type="text"] {
+	
+	color:blue;
+	text-shadow:1px 1px 1px black;
+}
+
+input[type="email"] {
+	
+	color:blue;
+	text-shadow:1px 1px 1px black;
+}
+
+input[type="tel"] {
+	
+	color:blue;
+	text-shadow:1px 1px 1px black;
+}
+
+input[type="image"] {
+	cursor:pointer;
+	color:orange;
+	margin-right:20px;
+	width:40px;
+	height:40px;
+}
+
+input[type="submit"] {
+	cursor:pointer;
+	
+	color:#1b7183;	
+	box-shadow:1px 1px 1px blue;
+	margin-right:20px;
+	padding:3px;
+}
+
+input[type="reset"] {
+	cursor:pointer;
+	
+	color:#1b7183;	
+	box-shadow:1px 1px 1px blue;
+	padding:3px;
+}
+
+
+textarea{
+	
+	color:blue;
+	text-shadow:1px 1px 1px black;
+}
+
+input:hover[type="text"] {
+	background:#00ffff;
+	color:blue;
+	text-shadow:1px 1px 1px yellow;
+	
+}
+
+input:hover[type="email"] {
+	background:#00ffff;
+	color:blue;
+	text-shadow:1px 1px 1px yellow;
+}
+
+input:hover[type="tel"] {
+	background:#00ffff;
+	color:blue;
+	text-shadow:1px 1px 1px yellow;
+}
+textarea:hover{
+	background:#00ffff;
+	color:blue;
+	text-shadow:1px 1px 1px yellow;
+}
+
+
+aside{
+	width:19.8%;
+	height:900px;
+	margin:0 0 0 80%;
+	box-shadow:1px 3px 10px black;
+	border-radius:10px 0 0 10px;
+	background-color:lightblue;
+	border:1px solid #fff;
+}
+
+aside.profseta{
+	width:31%;
+	height:2500px;
+	margin:0 0 0 70%;
+	
+	background-color:#ccc;
+	border:1px solid #gray;
+	color:#fff;
+}
+
+aside.profseta-menor{
+	width:31%;
+	height:1500px;
+	margin:0 0 0 70%;
+	
+	background-color:#ccc;
+	border:1px solid #gray;
+	color:#fff;
+}
+
+aside.profseta-peq{
+	width:31%;
+	height:800px;
+	margin:0 0 0 70%;
+	
+	background-color:#ccc;
+	border:1px solid #gray;
+	color:#fff;
+}
+
+aside#ladopadroes{
+	width:60px;
+	height:900px;
+	margin-left:910px;
+	margin-top:300px;
+	position:absolute;
+	
+}
+
+ img#eu{
+	width:17%;
+	height:35%;
+	margin:0 5% 0 3%;
+	border: 6px solid lightblue;
+	box-shadow: 1px 2px 3px 4px #1b7183;
+	float:left;
+	
+}
+ img#eu:hover{
+	width:20%;
+	height:40%;
+	margin:0 5% 0 3%;
+	border: 6px solid #1b7183;
+	box-shadow: 4px 3px 2px 1px lightblue;
+	
+	
+}
+
+
+
+
+ img#quadro{
+	position: fixed;
+    bottom: 100px;
+    right:70px;
+    width: 13%;	
+    border: 3px solid #73AD21;
+	
+}
+
+ul.listasocial{
+	margin:0 2% 0 80%;
+	border:1px solid #fff;
+	box-shadow:1px 2px 2px #000;
+}
+
+ul.listasocial li{
+	display:inline-block;
+	margin:0 5%;
+}
+
+ img.social{
+	width:50%;
+	height:50%;
+	
+	}
+
+img.social:hover{
+	width:60%;
+	height:60%;
+	
+	}
+
+	
+ li a img.social{
+	list-style:none;
+	
+}
+
+ul.listasocial li p{
+	text-align:left;
+	font-size:1em;
+	color:darkgreen;
+	margin:0 0 0 1%;
+}
+
+footer {
+	
+	width:100%;
+	float:left;
+	background-color:darkblue;
+	padding:0.5% 0 1% 0;
+	
+}
+
+.sessaomaterias footer p{
+	
+	text-align:center;
+	color:#00AFEF;
+	font-size:12pt;
+	
+}
+
+footer p{
+	
+	text-align:center;
+	color:#00AFEF;
+	
+	
+}
+
+
+
+footer.rodamate {
+	
+	width:100%;
+	float:left;
+	background-color: #111;
+	padding:10px 0 20px 0;
+	
+}
+
+footer.rodamate p{
+	
+	margin-top:15px;
+	color:#fff;
+	font-size:12pt;
+	text-shadow:none;
+	text-align:center;
+}
+
+
+
+	
+
+
+
+
+
+
+

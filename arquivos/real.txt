@@ -1,0 +1,13 @@
+
+#include <stdio.h>
+
+void aula05_real(){
+    float num;
+    float num2;
+    
+    printf("Aula 05: exemplo com o tipo real \n");
+    printf("Digite um número real ");
+    scanf("%f", &num);
+    printf("O número digitado foi %10.2f \n", num); // número de casas decimais e localização do número
+    
+}

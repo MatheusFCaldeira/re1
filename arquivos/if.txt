@@ -1,0 +1,16 @@
+
+#include <stdio.h>
+
+void aula10_par_impar(){
+    int n;
+    
+    printf("Digite um número: ");
+    scanf("%d", &n);
+    
+    if(n % 2 == 0){
+        printf("\n\t%d é par\n\n\n", n);
+    }else{
+        printf("\n\t%d é impar\n\n\n", n);
+    }
+    
+}

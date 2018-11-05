@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+void aula05_inteiro(){
+   
+    int num;
+    int num2;
+    
+    printf("*** Aula 05: inteiro *** \n");
+    printf("Digite um número: ");   
+    scanf("%d", &num);
+    printf("O número digitado foi %d \n", num);
+    printf("Digite outro número: ");
+    scanf("%d", &num2);
+    printf("O segundo número digitado foi %d \n", num2);
+    int r = num + num2;
+    int r2 = num - num2;
+    int r3 = num * num2;
+    int r4 = num / num2;
+    printf("A soma desses dois números foi: %d \n", r);
+    printf("A subtração foi: %d \n", r2);
+    printf("A multiplicação foi: %d \n", r3);
+    printf("A divisão foi: %d \n", r4);
+}
+   

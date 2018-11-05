@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="css/video.css"/>
+	<title> Vídeo </title>
+</head>
+<body>
+	<video loop controls poster="imagens/poster.jpg"> <!-- poster faz com que tenha uma imagem antes de o vídeo ser executado -->
+		<source src="video/video.webm" type="video/webm">
+		<p> Seu navegador não suporta o elemento vídeo da HTML5
+		</br>
+		Faça <a href="video/video.mpeg3"> download da vídeo.webm</a>
+	</video>
+</body>
+</html>

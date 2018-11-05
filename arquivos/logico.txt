@@ -1,0 +1,17 @@
+
+#include <stdbool.h>
+#include <stdio.h>
+
+void aula05_logico(){
+    
+    
+    bool v, f;
+    
+    v = true;
+    f = false;
+    
+    printf("*** Aula 05: exemplo com tipo lógico *** \n");
+    printf("A Fatec Jales é uma faculdade pública? %d \n", v);
+    printf("O melhor time do Brasil é o Corinthians? %d \n", f);
+    printf("A soma de 2 + 2 = 4? %d \n", v);
+}

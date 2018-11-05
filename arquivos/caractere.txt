@@ -1,0 +1,16 @@
+
+#include <stdio.h>
+
+void aula05_caractere(){
+    char sexo;
+    char nome[20];
+    
+    printf("*** Aula 05: exemplo com char *** \n");
+    printf("Digite o seu nome: ");
+    scanf("%s", &nome); // Para pegar o nome inteiro
+    printf("Digite [f] para feminino e [m] para masculino: ");
+    scanf(" %c", &sexo); //Da espaço para porque vem depois do char/%s
+    printf("O seu nome é %s e o sexo informado é %c \n", nome, sexo);
+    
+    
+}

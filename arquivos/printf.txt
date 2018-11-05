@@ -1,0 +1,9 @@
+
+#include <stdio.h>
+
+void aula04_hello(){
+   
+    printf("*** Aula 04: programa hello *** \n \n");
+    printf("Hello World - Alô Mundo \n");   
+}
+ 
